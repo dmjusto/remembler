@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://dylanfairbanks:D89LK3H2d6rWs36@rememblercluster.indym.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}

@@ -1,0 +1,29 @@
+.Navbar {
+    background-color: #212121;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Navbar h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    letter-spacing: 7px;
+    margin: 0;
+    color: #80cbc4;
+    line-height: 85px;
+}
+
+.Navbar .links {
+    position: absolute;
+    margin-left: auto;
+    margin-right: 20px;
+    right: 0;
+}
+
+.links a {
+    color: #f2f2f2;
+    padding-left: 10px;
+}

@@ -18,7 +18,7 @@ app.use('/api/decks', require('./routes/decks'));
 app.use('/api/auth', require('./routes/auth'));
 
 // Heroku environment port or localhost 3000 locally
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 // Start Server
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

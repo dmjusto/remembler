@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
 const Deck = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true,
+    },
     cards: [
         {
             front: {
@@ -13,6 +17,10 @@ const Deck = new mongoose.Schema({
             },
         },
     ],
+    date: {
+        type: Date,
+        default: Date.now,
+    },
 });
 
 module.exports = mongoose.model('Deck', Deck);

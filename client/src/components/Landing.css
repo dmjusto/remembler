@@ -1,15 +1,27 @@
-/* .Landing {
-    background-image: url('../img/landingImg.jpg');
-    background-size: cover;
-    position: relative;
+.Landing {
+    display: flex;
+    justify-content: center;
     height: calc(100vh - 85px);
 }
 
-.darkOverlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-} */
+.landing-content {
+    margin-top: 150px;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+.action-links {
+    color: #f2f2f2;
+}

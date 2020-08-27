@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
@@ -11,7 +11,7 @@ import Login from './components/auth/Login';
 function App() {
     return (
         <Router>
-            <Fragment className='App'>
+            <div className='App'>
                 <Navbar />
                 <Route exact path='/' component={Landing} />
                 <section className='container'>
@@ -20,7 +20,7 @@ function App() {
                         <Route exact path='/login' component={Login} />
                     </Switch>
                 </section>
-            </Fragment>
+            </div>
         </Router>
     );
 }

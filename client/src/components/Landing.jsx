@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
@@ -17,8 +17,8 @@ const Landing = () => {
     const classes = useStyles();
 
     return (
-        <Container>
-            <section className='Landing'>
+        <section className='Landing'>
+            <Container>
                 <div className='landing-content'>
                     <h1>Remembler</h1>
                     <h3>Create and Share Flashcard Decks</h3>
@@ -35,8 +35,8 @@ const Landing = () => {
                         </Button>
                     </div>
                 </div>
-            </section>
-        </Container>
+            </Container>
+        </section>
     );
 };
 

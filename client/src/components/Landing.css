@@ -2,10 +2,13 @@
     display: flex;
     justify-content: center;
     height: calc(100vh - 85px);
+    background-color: #303030;
 }
 
 .landing-content {
-    margin-top: 150px;
+    /* margin-top: 150px; */
+    position: relative;
+    top: 25vh;
     text-transform: uppercase;
     color: #f2f2f2;
     text-align: center;
